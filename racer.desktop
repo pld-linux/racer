@@ -5,6 +5,7 @@ Comment=Car simulator
 Comment[pl]=Symulator samochodowy
 Exec=racer
 Terminal=false
+Icon=racer.png
 Type=Application
 Categories=Game;X-RacingGame;
 # vi: encoding=utf-8
