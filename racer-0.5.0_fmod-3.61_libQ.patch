@@ -1,0 +1,34 @@
+diff -ruN rr050src/makefile rr050src-fixed/makefile
+--- rr050src-fmod/makefile	2003-07-09 22:53:24.000000000 +0200
++++ rr050src/makefile	2003-11-30 01:17:18.807566244 +0100
+@@ -13,7 +13,7 @@
+ MV=/bin/mv
+ SED=/bin/sed
+ 
+-LIBFMOD=fmod-3.6
++LIBFMOD=fmod-3.61
+ LIBSDL=SDL
+ 
+ #DEFCFLAGS=-O2 -Wno-deprecated -DQ_USE_FMOD -DQ_USE_SDL_VIDEO
+@@ -34,7 +34,7 @@
+ # uncomment next line for carlab make
+ #OPT_SUB_DIRS=src/racer/carlab src/racer/modeler src/racer/pacejka src/racer/tracked
+ 
+-SUB_DIRS=src/libs/qlib src/libs/d3 src/libs/nlib src/libs/ode src/racer/libu \
++SUB_DIRS=src/libs/jpeg src/libs/qlib src/libs/d3 src/libs/nlib src/libs/ode src/racer/libu \
+  src/racer/lib src/racer/main $(OPT_SUB_DIRS)
+ 
+ DEP_DIRS=src/racer/libu src/racer/lib src/racer/main $(OPT_SUB_DIRS)
+
+diff -ruN rr050src/src/racer/main/makefile rr050src-fixed/src/racer/main/makefile
+--- rr050src-fmod/src/racer/main/makefile	2003-07-09 22:53:24.000000000 +0200
++++ rr050src/src/racer/main/makefile	2003-11-30 01:18:29.231301549 +0100
+@@ -49,7 +49,7 @@
+ 
+ # Linking
+ LDIRS=-L../../../lib -L/usr/X11R6/lib
+-LFLAGS=$(LDIRS) -lD3 -lraceru -lracer -lQN $(DEFLIBS) -lODE -lQjpeg -lXxf86vm
++LFLAGS=$(LDIRS) -lD3 -lraceru -lracer -lQN $(DEFLIBS) -lODE -lQjpeg -lQ -lXxf86vm
+ # -lefence
+ 
+ .cpp.o:
