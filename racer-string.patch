@@ -1,0 +1,20 @@
+diff -durN src.orig1/racer/include/d3/global.h src/racer/include/d3/global.h
+--- src.orig1/racer/include/d3/global.h	Sun Jul  1 17:10:58 2001
++++ src/racer/include/d3/global.h	Sun Aug  5 13:50:37 2001
+@@ -6,7 +6,16 @@
+ #include <d3/texture.h>
+ #include <d3/batch.h>
+ #include <map>
++
++#ifdef __ALIB_TYPES_H
++#define string string_x
++#endif
++
+ #include <string>
++
++#ifdef __ALIB_TYPES_H
++#undef string
++#endif
+ 
+ struct DPrefs
+ {
