@@ -5,8 +5,6 @@ Version:	0.4.7.1
 Release:	1
 License:	Free for non-comercial use
 Group:		X11/Applications/Games
-Group(de):	X11/Applikationen/Spiele
-Group(pl):	X11/Aplikacje/Gry
 Source0:	http://www.ringlord.com/%{name}-linux-%{version}.tar.gz
 Source1:	%{name}.desktop
 Source2:	%{name}.sh
