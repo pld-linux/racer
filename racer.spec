@@ -3,7 +3,7 @@ Summary(pl):	Symulator samochodowy
 Name:		racer
 Version:	0.4.7.1
 Release:	1
-License:	Free for non-comercial use
+License:	Free for non-commercial use
 Group:		X11/Applications/Games
 Source0:	http://www.ringlord.com/%{name}-linux-%{version}.tar.gz
 Source1:	%{name}.desktop
