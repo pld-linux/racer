@@ -39,6 +39,7 @@ stosunkow± ³atwo¶ci±.
 %patch1 -p2
 
 %build
+export OPTFLAGS="%{rpmcflags}"
 ./build.sh
 
 %install
