@@ -50,8 +50,6 @@ install racer/*.ini $RPM_BUILD_ROOT%{_datadir}/racer
 install %{SOURCE1} $RPM_BUILD_ROOT%{_applnkdir}/Games
 install %{SOURCE2} $RPM_BUILD_ROOT%{_bindir}/racer
 
-gzip -9nf README.linux
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
