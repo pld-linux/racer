@@ -31,7 +31,7 @@ mind (compared to other driving simulations).
 %description -l pl
 Racer to darmowy i otwarty projekt symulatora, próbuj±cy wykorzystywaæ
 rzeczywist± fizykê samochodu i pojazdu, aby uzyskaæ realistyczny
-efekt. Samochody, tory, scenerie itp mog± byæ dla niego sworzone ze
+efekt. Samochody, tory, scenerie itp mog± byæ dla niego stworzone ze
 stosunkow± ³atwo¶ci±. Ten pakiet zawiera program racer
 
 %prep
