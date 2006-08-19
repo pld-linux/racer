@@ -31,14 +31,14 @@ mind (compared to other driving simulations).
 %description -l pl
 Racer to darmowy i otwarty projekt symulatora, próbuj±cy wykorzystywaæ
 rzeczywist± fizykê samochodu i pojazdu, aby uzyskaæ realistyczny
-efekt. Samochody, tory, scenerie itp mog± byæ dla niego stworzone ze
-stosunkow± ³atwo¶ci±. Ten pakiet zawiera program racer
+efekt. Samochody, tory, scenerie itp. mog± byæ dla niego stworzone ze
+stosunkow± ³atwo¶ci±.
 
 %prep
 %setup -q -a 1 -n rr050src
 %patch0 -p1
 #- (blino) fix ar flags, remove -a option
-perl -pi -e 's,ARFLAGS=-ar(.*),ARFLAGS=-r\1,' src/libs/*/makefile
+%{__perl} -pi -e 's,ARFLAGS=-ar(.*),ARFLAGS=-r\1,' src/libs/*/makefile
 
 %build
 export OPTFLAGS="%{rpmcflags}"
