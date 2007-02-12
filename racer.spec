@@ -1,5 +1,5 @@
 Summary:	Car simulator
-Summary(pl.UTF-8):   Symulator samochodowy
+Summary(pl.UTF-8):	Symulator samochodowy
 Name:		racer
 Version:	0.5.0
 Release:	0.1
