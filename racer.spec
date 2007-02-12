@@ -1,5 +1,5 @@
 Summary:	Car simulator
-Summary(pl):	Symulator samochodowy
+Summary(pl.UTF-8):   Symulator samochodowy
 Name:		racer
 Version:	0.5.0
 Release:	0.1
@@ -28,11 +28,11 @@ real car and vehicle physics to get a life-like feeling. Cars, tracks,
 scenes and such can be created for it, with relative simplicity in
 mind (compared to other driving simulations).
 
-%description -l pl
-Racer to darmowy i otwarty projekt symulatora, próbuj±cy wykorzystywaæ
-rzeczywist± fizykê samochodu i pojazdu, aby uzyskaæ realistyczny
-efekt. Samochody, tory, scenerie itp. mog± byæ dla niego stworzone ze
-stosunkow± ³atwo¶ci±.
+%description -l pl.UTF-8
+Racer to darmowy i otwarty projekt symulatora, prÃ³bujÄ…cy wykorzystywaÄ‡
+rzeczywistÄ… fizykÄ™ samochodu i pojazdu, aby uzyskaÄ‡ realistyczny
+efekt. Samochody, tory, scenerie itp. mogÄ… byÄ‡ dla niego stworzone ze
+stosunkowÄ… Å‚atwoÅ›ciÄ….
 
 %prep
 %setup -q -a 1 -n rr050src
