@@ -1,11 +1,10 @@
 [Desktop Entry]
-Encoding=UTF-8
 Name=Racer
 Comment=Car simulator
 Comment[pl]=Symulator samochodowy
 Exec=racer
 Terminal=false
-Icon=racer.png
+Icon=racer
 Type=Application
 Categories=Game;X-RacingGame;
 # vi: encoding=utf-8
