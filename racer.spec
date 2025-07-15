@@ -36,7 +36,7 @@ stosunkową łatwością.
 
 %prep
 %setup -q -a 1 -n rr050src
-%patch0 -p1
+%patch -P0 -p1
 #- (blino) fix ar flags, remove -a option
 %{__perl} -pi -e 's,ARFLAGS=-ar(.*),ARFLAGS=-r\1,' src/libs/*/makefile
 
